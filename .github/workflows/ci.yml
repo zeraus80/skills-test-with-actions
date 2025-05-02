@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: qa    
     steps:
-      - id: carro-step
+      - id: step1
         run: |
           echo "Approval Step"  
   build:
